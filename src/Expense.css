@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+    
+}
+.App {
+    text-align: center;
+    /* width: 100%; */
+  
+    background-color: black;
+   
+  }
+
+.container{
+   
+
+ height: 100vh;
+   text-align: left;
+  background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+  justify-content: space-evenly;
+}
+ h1{
+    color: blue;
+}
+.balance{
+    background-color: wheat;
+    /* width: 100%; */
+border: 1px solid black;
+ 
+}
+.balance h4{
+    font-size: large;
+    margin-left: 1rem;
+}
+.balance h1{
+    font-size: x-large;
+    margin-left: 1rem;
+}
+
+.IncExpns{
+background-color: wheat;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+
+} 
+.income p{
+    color: green;
+}
+.expense p{
+    color: brown;
+
+}
+.transitionList{
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+.transitionList h3{
+    font-size: large;
+}
+.transitionList li{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.transitionList .cash {
+width: 90%;
+
+background-color: white;
+}
+
+.transitionList .minus {
+   border-right: 2px solid red;
+   border-bottom: 2px solid black;
+   font-size: smaller;
+    }
+    .transitionList .plus{
+        border-right: 2px solid green;
+        border-bottom: 2px solid black;
+        font-size: smaller;
+    }
+    .transitionList {
+        width: 100%;
+        height: 20vh;
+
+ overflow: scroll;
+
+   
+}
+
+.Addtransition h3{
+    font-size: large;
+}
+.text{
+
+    display: inline;
+}
+.Addtransition input{
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.Amount button{
+    width: 100%;
+    background-color: blue;
+    outline: none;
+    border: none;
+    color: white;
+}
